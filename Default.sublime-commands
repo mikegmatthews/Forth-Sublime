@@ -1,0 +1,22 @@
+[
+  { "caption": "Preferences: Forth",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Forth/Forth.sublime-settings",
+      "default": "{\n\t$0\n}\n"
+    }
+  },
+  { "caption": "Preferences: Forth Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Forth/Default (${platform}).sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "Forth: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/Forth/README.md"
+    }
+  }
+]
